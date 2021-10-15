@@ -1,0 +1,691 @@
+
+* {
+ margin: 0;
+ padding: 0;
+ font-family: oxygen;
+
+ }
+
+.topHead {
+    display: inline;
+    font-family: oxygen;
+    font-size: 27px;
+    position: relative;
+    left: 70px;
+}
+
+#callToday {
+    color: #2a2a2a;
+}
+.top {
+    text-align: center;
+ }
+
+header {
+    background-color: white;
+    height: 165px ;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    box-shadow: 2px 2px #2a94be;
+}
+
+#button {
+    margin: 0px 2px 0px 20px;
+    padding: 16px 24px;
+    background-color: #242632;
+    height: 72px;
+    width: 180px;
+    font-size: 18px;
+    font-weight: 900;
+    text-align: left;
+    color: #F0F0F0;
+}
+
+#button:hover {
+    color: #242632;
+    background-color: #999898;
+}
+
+.logo {
+    display: inline;
+    position: relative;
+    left: 20px;
+    
+}
+
+nav {
+    display: inline;
+}
+
+.menu {
+    display: inline;
+    
+}
+
+.list {
+    display: inline-block;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    padding-right: 10px;
+    position: relative;
+    left: 170px;
+    bottom: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color:#2a2a2a;
+}
+
+.bottom {
+    position: relative;
+    left: 70px;
+}
+
+.bodyImage {
+
+    
+    height: 550px;
+    width: 100%;
+}
+
+.hero {
+    position: relative;
+    top: 165px;
+    background-image: url(../img/chimney.jpg);
+    height: 620px;
+    
+
+}
+
+.contactForm {
+  height: 440px;
+  width: 350px;
+  background-color: #FFFFFF;
+  z-index: 9;
+  position: relative;
+  left: 1050px;
+  top: 67px;
+  text-align: center;
+  font-size: 14px;
+  text-transform: uppercase;
+   
+  
+}
+
+form {
+    font: 14px;
+}
+
+input[type=text], select, textarea {
+width: 320px;
+border: 0px none;
+border-bottom: 1px solid black;
+}
+
+input[type="text"]{
+padding: 10px 5px; 
+line-height: 28px;
+}
+
+.contactHeadline {
+    font-weight: bolder;
+    color:#2A95BE;
+    text-align: left;
+    position: relative;
+    left: 10px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    border-bottom: 1px solid black;
+    width: 330px;
+    
+}
+
+#jobdec {
+    line-height: 10px;
+    padding-bottom: 60px;
+}
+
+.contactButton {
+    margin-top: 15px;
+    height: 50px;
+    width: 150px;
+    border: 3px solid #2A95BE;
+    color:#2A95BE;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+
+.contactButton:hover {
+    color: #F0F0F0;
+    background-color: #2A95BE;
+}
+
+.services {
+    height: 580px;
+    width: 100%;
+    background-color: #F1F1F1;
+    margin-top: 165px;
+    
+}
+
+.services {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+
+.wedo {
+    display: inline-block;
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.hidden {
+    position: absolute;
+    height: 250px;
+    width: 220px;
+    text-align: left;
+    left: 170px;
+    top: 1040px;
+    z-index: 9;
+    display: none; 
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.wedo:hover {
+    
+    background-color: #242632;
+    -webkit-transition: background-color 1000ms ease-out;
+    -ms-transition: background-color 1000ms ease-out;
+    transition: background-color 1000ms ease-out;
+   
+}
+
+.heading {
+    color:#242632;
+    font-size: 20px;
+    margin-top: 150px;
+    font-weight: bolder
+}
+
+.wedo:hover > .chimneyicon {
+    display: none;
+}
+
+.wedo:hover > .heading {
+    display: none;
+}
+
+.wedo:hover > .hidden {
+    display: block;
+}
+
+#installCHim {
+    left: 130px;
+    width: 200px;
+}
+
+#repairs {
+    left: 485px;
+    width: 200px;
+
+}
+
+#maintain {
+    left: 835px;
+    width: 200px;
+
+}
+
+#pest {
+    left: 1190px;
+}
+
+.title {
+
+    background-color: #242632;
+    height: 60px;
+    position: relative;
+    top: 165px;
+    color: #242632;
+}
+
+#number1 {
+    text-align: center;
+    font-size: 80px;
+    position: relative;
+    top: 70px;
+}
+
+.steps {
+    width: 100%;
+   
+  
+}
+
+.map {
+    width: 100%;
+    margin: -5px;
+    
+    height: fit-content;
+}
+
+.reviews {
+    margin: 0 auto; 
+    width: 80%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.revblock {
+    display: inline-block;
+    height: 320px;
+    width: 350px;
+  
+    
+    background-color: #F2F1F1;
+}
+
+#reviewsHeading {
+   
+    text-align: center;
+    font-size: 70px;
+    margin-top: 30px;
+    
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 25px ;
+    font-size:30px;
+}
+
+.para {
+    width: 300px;
+    text-align: center;
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+.fivestar {
+    height: auto;
+    width: 150px;
+    position: relative;
+    left: 95px;
+    top: 15px;
+    
+}
+
+.chimneyicon {
+    height: auto;
+    width: 90px;
+    position: absolute;
+    display: inline;
+}
+
+.linediv {
+    background-color: #2A95BE;
+    border-bottom: solid 1px #242632;
+    height: 10px;
+    margin-top: 120px;
+}
+
+
+
+.pricing {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+.priceblock {
+    display: inline-block;
+    height: 500px;
+    width: 280px;
+    border: solid 1px #EEEEEE;
+    margin: 0 40px;
+}
+
+.pricetitle {
+    background-color: #EEEEEE;
+    width: 280px;
+    height: 150px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.pricebottom {
+    text-align: center;
+
+}
+
+.pricepara {
+ text-align: center;
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 60px;
+ color: #64686D;
+ font-weight: 600px;
+}
+
+.pricebutton {
+    background-color: #2A95BE;
+    color: #EEEEEE;
+    text-align: center;
+    padding: 9px;
+    font-weight: 600;
+
+}
+
+.pricebutton:hover {
+    background-color: #EEEEEE;
+    color: #2A95BE;
+}
+
+.ourservices {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+#odd {
+    position: relative;
+    top: 60px;
+}
+
+.lastone {
+    height: 300px;
+}
+
+.finalfoot {
+    height: 300px;
+    
+    width: 50%;
+    float: left;
+
+}
+
+.lastlogo {
+    position: relative;
+    left: 90px;
+    top: 30px;
+    padding-bottom: 15px;
+    border-bottom: solid 4px #2A95BE ;
+
+}
+
+.addy {
+    position: relative;
+    left: 90px;
+    top: 30px;
+    font-size: 25px;
+    color: #242632;
+    padding-top: 10px;
+}
+
+.gettouch {
+    height: 200px;
+    width: 50%;
+    float: right;
+
+}
+
+.headertouch { 
+    font-size: 90px;
+    
+    color: #242632;
+
+}
+
+.touchpara {
+
+    font-size: 25px;
+    font-weight: 600;
+    color: #2A95BE;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+.aboutushero {
+    width: 100%;
+}
+
+.sweep5 {
+    width: 100%;
+    height: 400px;
+    margin: -5px;
+    padding: -5px;
+}
+
+.aboutUsHeader {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    width: 260px;
+    margin-top: 17px;
+   
+}
+
+.aboutBorder {
+    height: 1px;
+    background-color: #2A95BE;
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+}
+
+.aboutpara {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.video {
+    margin-left: 60px;
+    width: 40%;
+    float: left;
+}
+
+.sidetitle {
+    font-size: 30px;
+    margin-bottom: 25px;
+    
+}
+
+.sidepara {
+    width: 1400px;
+    font-size: 17px;
+    
+}
+
+.listside {
+    margin-left: 10px;
+    color: #2A95BE;
+    display: block;
+    font-size: 17px;
+    font-weight: 600;
+
+}
+
+.sidebutton {
+    background-color: #2A95BE;
+    color: #F1F1F1;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 7px;
+    font-weight: 600;
+}
+
+.previouswork {
+    background-color: #F5F5F5;
+    ;
+}
+
+.prevworkHeader {
+    text-align: center;
+    
+    margin-top: 180px;
+    font-size: 50px;
+
+}
+
+.workimg {
+    width: 600px;
+    height: 350px;
+    margin:  20px;
+
+}
+
+.prevworkImages {
+    text-align: center;
+    display: inline-block;
+
+}
+
+.contactpage {
+    background-color: bisque;
+    height: 800px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.contactHeading {
+    display: inline-block;
+    font-size: 48px;
+    border-bottom: solid 3px #2A95BE;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.contactpara {
+    font-size: 25px;
+    font-weight: bolder;
+    line-height: 50px;
+    
+}
+
+.typetext {
+    width: 100px;
+}
+
+.faqs {
+    text-align: center;
+    background-color: #F0F0F0;
+}
+
+.faqlist {
+    font-size: 40px;
+    list-style-type: square;
+    line-height: 90px;
+    display: inline-block;
+    
+}
+
+.listfaq {
+    list-style-type: square;
+}
+
+.faqlist:hover {
+    color: #2A95BE;
+    cursor: pointer;
+    
+}
+
+.faqpara {
+    font-size: larger;
+
+    display: inline-block;
+    display: none;
+}
+
+.faqlist:hover + .faqpara {
+    display: block;
+}
+
+
+
+.linebreak {
+    background-color: #2A95BE;
+    height: 2px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.bigbreak {
+    height: 60px;
+    background-color: #F0F0F0;
+    border-bottom: solid 5px #242632;
+}
+
+#faqheader {
+    background-color: #F0F0F0;
+    display: block;
+    text-align: center;
+    font-size: 50px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.learnmorediv {
+    display: block;
+    background-color: #F0F0F0;
+    text-align: center;
+}
+
+#learnmore1 {
+    position: relative;
+    bottom: 70px;
+    height: auto;
+    width: auto;
+    font-size: 20px;
+    font-weight: 600;
+    color: #F0F0F0;
+    background-color: #242632;
+    padding: 10px;
+}
+
+#learnmore1:hover {
+    color: #242632;
+    background-color: #F0F0F0;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
